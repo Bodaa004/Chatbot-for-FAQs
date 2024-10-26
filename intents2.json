@@ -1,0 +1,2918 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "Greetings",
+                "What's up?"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?",
+                "Greetings! How may I assist you?",
+                "Hey! What's going on?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!",
+                "Appreciate it",
+                "Thank you very much"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "You're welcome!",
+                "Glad I could assist!",
+                "No problem!"
+            ]
+        },        {
+            "tag": "random",
+            "patterns": [
+                "I love you",
+                "Will you marry me",
+                "Do you love me"
+            ],
+            "responses": [
+                "I am not program for this, please ask appropriate query"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "swear",
+            "patterns": [
+                "fuck",
+                "bitch",
+                "shut up",
+                "hell",
+                "stupid",
+                "idiot",
+                "dumb ass",
+                "asshole",
+                "fucker"
+            ],
+            "responses": [
+                "please use appropriate language",
+                "Maintaining decency would be appreciated"
+            ],
+            "context_set": ""
+        },    {
+            "tag": "book_search",
+            "patterns": [
+              "Can you recommend a book?",
+              "I'm looking for a book",
+              "Recommend me something to read"
+            ],
+            "responses": [
+              "Certainly! What genre are you interested in?",
+              "Sure, I'd be happy to recommend a book. What type of book are you in the mood for?"
+            ]
+          },
+        {
+            "tag": "Fiction",
+            "patterns": [
+                "Fiction",
+                "Recommend a Fiction book",
+                "Recommend a book in Fiction"
+            ],
+            "responses": [
+                {
+                    "Book": "Gilead",
+                    "Authors": "Marilynne Robinson",
+                    "Rate": 3.85
+                },
+                {
+                    "Book": "Rage of angels",
+                    "Authors": "Sidney Sheldon",
+                    "Rate": 3.93
+                },
+                {
+                    "Book": "Warhost of Vastmark",
+                    "Authors": "Janny Wurts",
+                    "Rate": 4.03
+                },
+                {
+                    "Book": "Taken at the Flood",
+                    "Authors": "Agatha Christie",
+                    "Rate": 3.71
+                },
+                {
+                    "Book": "The illustrated man",
+                    "Authors": "Ray Bradbury",
+                    "Rate": 4.14
+                },
+                {
+                    "Book": "The Yiddish Policemen's Union",
+                    "Authors": "Michael Chabon",
+                    "Rate": 3.7
+                },
+                {
+                    "Book": "The Silmarillion",
+                    "Authors": "John Ronald Reuel Tolkien;Ted Nasmith",
+                    "Rate": 3.91
+                },
+                {
+                    "Book": "Tropic of Cancer",
+                    "Authors": "Henry Miller",
+                    "Rate": 3.69
+                },
+                {
+                    "Book": "The Love of the Last Tycoon",
+                    "Authors": "F. Scott Fitzgerald",
+                    "Rate": 3.65
+                },
+                {
+                    "Book": "The Song of Rhiannon",
+                    "Authors": "Evangeline Walton",
+                    "Rate": 4.02
+                }
+            ]
+        },
+        {
+            "tag": "Juvenile Fiction",
+            "patterns": [
+                "Juvenile Fiction",
+                "Recommend a Juvenile Fiction book",
+                "Recommend a book in Juvenile Fiction"
+            ],
+            "responses": [
+                {
+                    "Book": "Ocean Star Express",
+                    "Authors": "Mark Haddon;Peter Sutton",
+                    "Rate": 3.5
+                },
+                {
+                    "Book": "The Princess of the Chalet School",
+                    "Authors": "Elinor Mary Brent-Dyer",
+                    "Rate": 4.1
+                },
+                {
+                    "Book": "The voyage of the Dawn Treader",
+                    "Authors": "Clive Staples Lewis",
+                    "Rate": 4.09
+                },
+                {
+                    "Book": "Rest, Rabbit, Rest",
+                    "Authors": "Jacquelyn Reinach;Richard Hefter",
+                    "Rate": 4.01
+                },
+                {
+                    "Book": "Where the Red Fern Grows",
+                    "Authors": "Wilson Rawls",
+                    "Rate": 4.37
+                },
+                {
+                    "Book": "Poppy's Return",
+                    "Authors": "Avi",
+                    "Rate": 3.99
+                },
+                {
+                    "Book": "Diary of a Spider",
+                    "Authors": "Doreen Cronin",
+                    "Rate": 4.25
+                },
+                {
+                    "Book": "An Old-Fashioned Thanksgiving",
+                    "Authors": "Louisa May Alcott;James Bernardin",
+                    "Rate": 3.7
+                },
+                {
+                    "Book": "The Amazing Maurice and His Educated Rodents",
+                    "Authors": "Terry Pratchett",
+                    "Rate": 4.05
+                },
+                {
+                    "Book": "The Wee Free Men",
+                    "Authors": "Terry Pratchett",
+                    "Rate": 4.27
+                }
+            ]
+        },
+        {
+            "tag": "Biography & Autobiography",
+            "patterns": [
+                "Biography & Autobiography",
+                "Recommend a Biography & Autobiography book",
+                "Recommend a book in Biography & Autobiography"
+            ],
+            "responses": [
+                {
+                    "Book": "The Real Trial of Oscar Wilde",
+                    "Authors": "Merlin Holland",
+                    "Rate": 4.04
+                },
+                {
+                    "Book": "A Year in the Life of William Shakespeare",
+                    "Authors": "James Shapiro",
+                    "Rate": 4.09
+                },
+                {
+                    "Book": "Travels",
+                    "Authors": "Michael Crichton",
+                    "Rate": 3.95
+                },
+                {
+                    "Book": "Walt Whitman",
+                    "Authors": "Justin Kaplan",
+                    "Rate": 3.99
+                },
+                {
+                    "Book": "How to Make Love Like a Porn Star",
+                    "Authors": "Jenna Jameson;Neil Strauss",
+                    "Rate": 3.75
+                },
+                {
+                    "Book": "The Bradbury Chronicles",
+                    "Authors": "Sam Weller",
+                    "Rate": 4.22
+                },
+                {
+                    "Book": "The Game",
+                    "Authors": "Neil Strauss",
+                    "Rate": 3.74
+                },
+                {
+                    "Book": "Ulysses S. Grant",
+                    "Authors": "Michael Korda",
+                    "Rate": 3.88
+                },
+                {
+                    "Book": "Thomas Jefferson",
+                    "Authors": "Christopher Hitchens",
+                    "Rate": 3.92
+                },
+                {
+                    "Book": "Muhammad",
+                    "Authors": "Karen Armstrong",
+                    "Rate": 4.04
+                }
+            ]
+        },
+        {
+            "tag": "History",
+            "patterns": [
+                "History",
+                "Recommend a History book",
+                "Recommend a book in History"
+            ],
+            "responses": [
+                {
+                    "Book": "Spandau",
+                    "Authors": "Albert Speer",
+                    "Rate": 4.12
+                },
+                {
+                    "Book": "Tyranny of the Majority",
+                    "Authors": "Lani Guinier",
+                    "Rate": 3.82
+                },
+                {
+                    "Book": "The Origins of the Civil Rights Movement",
+                    "Authors": "Aldon D. Morris",
+                    "Rate": 4.04
+                },
+                {
+                    "Book": "Presidential Power and the Modern Presidents",
+                    "Authors": "Richard E. Neustadt",
+                    "Rate": 3.79
+                },
+                {
+                    "Book": "What Went Wrong?",
+                    "Authors": "Bernard Lewis",
+                    "Rate": 3.49
+                },
+                {
+                    "Book": "1421",
+                    "Authors": "Gavin Menzies",
+                    "Rate": 3.59
+                },
+                {
+                    "Book": "A Crack in the Edge of the World",
+                    "Authors": "Simon Winchester",
+                    "Rate": 3.78
+                },
+                {
+                    "Book": "Krakatoa",
+                    "Authors": "Simon Winchester",
+                    "Rate": 3.87
+                },
+                {
+                    "Book": "Sex with the Queen",
+                    "Authors": "Eleanor Herman",
+                    "Rate": 3.91
+                },
+                {
+                    "Book": "The Chaneysville Incident",
+                    "Authors": "David Bradley",
+                    "Rate": 3.96
+                }
+            ]
+        },
+        {
+            "tag": "Literary Criticism",
+            "patterns": [
+                "Literary Criticism",
+                "Recommend a Literary Criticism book",
+                "Recommend a book in Literary Criticism"
+            ],
+            "responses": [
+                {
+                    "Book": "How to Read Literature Like a Professor",
+                    "Authors": "Thomas C. Foster",
+                    "Rate": 3.65
+                },
+                {
+                    "Book": "The Art of the Novel",
+                    "Authors": "Milan Kundera",
+                    "Rate": 3.96
+                },
+                {
+                    "Book": "Letters from the Earth",
+                    "Authors": "Mark Twain",
+                    "Rate": 4.22
+                },
+                {
+                    "Book": "Every Book Its Reader",
+                    "Authors": "Nicholas A. Basbanes",
+                    "Rate": 3.96
+                },
+                {
+                    "Book": "Teaching a Stone to Talk",
+                    "Authors": "Annie Dillard",
+                    "Rate": 4.2
+                },
+                {
+                    "Book": "Holy the Firm",
+                    "Authors": "Annie Dillard",
+                    "Rate": 4.22
+                },
+                {
+                    "Book": "The Writing Life",
+                    "Authors": "Annie Dillard",
+                    "Rate": 4.03
+                },
+                {
+                    "Book": "Every Tongue Got to Confess",
+                    "Authors": "Zora Neale Hurston",
+                    "Rate": 3.98
+                },
+                {
+                    "Book": "Journal of a Novel",
+                    "Authors": "John Steinbeck",
+                    "Rate": 4.09
+                },
+                {
+                    "Book": "The Complete Poems",
+                    "Authors": "William Blake",
+                    "Rate": 4.29
+                }
+            ]
+        },
+        {
+            "tag": "Philosophy",
+            "patterns": [
+                "Philosophy",
+                "Recommend a Philosophy book",
+                "Recommend a book in Philosophy"
+            ],
+            "responses": [
+                {
+                    "Book": "Reason in History",
+                    "Authors": "Georg Wilhelm Friedrich Hegel",
+                    "Rate": 3.64
+                },
+                {
+                    "Book": "The Presocratics",
+                    "Authors": "Philip Wheelwright",
+                    "Rate": 4.04
+                },
+                {
+                    "Book": "The Perennial Philosophy",
+                    "Authors": "Aldous Huxley",
+                    "Rate": 4.23
+                },
+                {
+                    "Book": "The Doors of Perception and Heaven and Hell",
+                    "Authors": "Aldous Huxley",
+                    "Rate": 3.94
+                },
+                {
+                    "Book": "Plato, Not Prozac!",
+                    "Authors": "Lou Marinoff",
+                    "Rate": 3.39
+                },
+                {
+                    "Book": "Wittgenstein's Poker",
+                    "Authors": "David Edmonds;John Eidinow",
+                    "Rate": 3.75
+                },
+                {
+                    "Book": "The Making of a Philosopher",
+                    "Authors": "Colin McGinn",
+                    "Rate": 3.65
+                },
+                {
+                    "Book": "The Blue and Brown Books",
+                    "Authors": "Ludwig Wittgenstein",
+                    "Rate": 4.13
+                },
+                {
+                    "Book": "The Act of Creation",
+                    "Authors": "Arthur Koestler",
+                    "Rate": 4.26
+                },
+                {
+                    "Book": "The Ghost in the Machine",
+                    "Authors": "Arthur Koestler",
+                    "Rate": 4.01
+                }
+            ]
+        },
+        {
+            "tag": "Comics & Graphic Novels",
+            "patterns": [
+                "Comics & Graphic Novels",
+                "Recommend a Comics & Graphic Novels book",
+                "Recommend a book in Comics & Graphic Novels"
+            ],
+            "responses": [
+                {
+                    "Book": "How to Make Money Like a Porn Star",
+                    "Authors": "Neil Strauss;Bernard Chang",
+                    "Rate": 3.31
+                },
+                {
+                    "Book": "Inferno",
+                    "Authors": "Alex Irvine;Bob Kane",
+                    "Rate": 3.6
+                },
+                {
+                    "Book": "Black Hole",
+                    "Authors": "Charles Burns",
+                    "Rate": 3.83
+                },
+                {
+                    "Book": "Good-bye, Chunky Rice",
+                    "Authors": "Craig Thompson",
+                    "Rate": 3.8
+                },
+                {
+                    "Book": "Will Eisner's New York",
+                    "Authors": "Will Eisner",
+                    "Rate": 4.36
+                },
+                {
+                    "Book": "Amphigorey",
+                    "Authors": NaN,
+                    "Rate": 4.05
+                },
+                {
+                    "Book": "Calvin and Hobbes: Sunday Pages 1985-1995",
+                    "Authors": "Bill Watterson",
+                    "Rate": 4.71
+                },
+                {
+                    "Book": "The Complete Calvin and Hobbes",
+                    "Authors": "Bill Watterson",
+                    "Rate": 4.82
+                },
+                {
+                    "Book": "The Best of Ray Bradbury",
+                    "Authors": "Ray Bradbury",
+                    "Rate": 4.07
+                },
+                {
+                    "Book": "The Marvel Comics Encyclopedia",
+                    "Authors": "DK Publishing, Inc",
+                    "Rate": 4.36
+                }
+            ]
+        },
+        {
+            "tag": "Religion",
+            "patterns": [
+                "Religion",
+                "Recommend a Religion book",
+                "Recommend a book in Religion"
+            ],
+            "responses": [
+                {
+                    "Book": "Meeting Jesus Again for the First Time",
+                    "Authors": "Marcus J. Borg",
+                    "Rate": 4.14
+                },
+                {
+                    "Book": "Reading the Bible Again for the First Time",
+                    "Authors": "Marcus J. Borg",
+                    "Rate": 4.13
+                },
+                {
+                    "Book": "Shadow of the Almighty",
+                    "Authors": "Elisabeth Elliot",
+                    "Rate": 4.39
+                },
+                {
+                    "Book": "The Dance of the Dissident Daughter",
+                    "Authors": "Sue Monk Kidd",
+                    "Rate": 3.96
+                },
+                {
+                    "Book": "C.S. Lewis",
+                    "Authors": "C. S. Lewis",
+                    "Rate": 4.31
+                },
+                {
+                    "Book": "The Screwtape Letters",
+                    "Authors": "C. S. Lewis",
+                    "Rate": 4.22
+                },
+                {
+                    "Book": "Mere Christianity",
+                    "Authors": "C. S. Lewis",
+                    "Rate": 4.32
+                },
+                {
+                    "Book": "Learning to Love",
+                    "Authors": "Thomas Merton",
+                    "Rate": 4.5
+                },
+                {
+                    "Book": "What Christians Believe",
+                    "Authors": "C. S. Lewis",
+                    "Rate": 4.2
+                },
+                {
+                    "Book": "Think on These Things",
+                    "Authors": "Jiddu Krishnamurti",
+                    "Rate": 4.4
+                }
+            ]
+        },
+        {
+            "tag": "Drama",
+            "patterns": [
+                "Drama",
+                "Recommend a Drama book",
+                "Recommend a book in Drama"
+            ],
+            "responses": [
+                {
+                    "Book": "Six Characters in Search of an Author and Other Plays",
+                    "Authors": "Luigi Pirandello",
+                    "Rate": 3.95
+                },
+                {
+                    "Book": "The Crucible",
+                    "Authors": "Arthur Miller",
+                    "Rate": 3.57
+                },
+                {
+                    "Book": "The Crucible",
+                    "Authors": "Arthur Miller",
+                    "Rate": 3.57
+                },
+                {
+                    "Book": "Death of a Salesman",
+                    "Authors": "Gerald Clifford Weales",
+                    "Rate": 3.5
+                },
+                {
+                    "Book": "Saint Joan",
+                    "Authors": "George Bernard Shaw",
+                    "Rate": 3.79
+                },
+                {
+                    "Book": "Faust",
+                    "Authors": "Johann Goethe",
+                    "Rate": 3.73
+                },
+                {
+                    "Book": "Prometheus Bound and Other Plays",
+                    "Authors": "Aeschylus;Philip Vellacott",
+                    "Rate": 4.1
+                },
+                {
+                    "Book": "Iphigenia, Phaedra, Athaliah",
+                    "Authors": "Jean Racine",
+                    "Rate": 3.85
+                },
+                {
+                    "Book": "The Wasps",
+                    "Authors": "Aristophanes",
+                    "Rate": 3.95
+                },
+                {
+                    "Book": "The Oresteia",
+                    "Authors": "Aeschylus",
+                    "Rate": 4.01
+                }
+            ]
+        },
+        {
+            "tag": "Juvenile Nonfiction",
+            "patterns": [
+                "Juvenile Nonfiction",
+                "Recommend a Juvenile Nonfiction book",
+                "Recommend a book in Juvenile Nonfiction"
+            ],
+            "responses": [
+                {
+                    "Book": "The Secret Garden Cookbook",
+                    "Authors": "Amy Cotler",
+                    "Rate": 4.28
+                },
+                {
+                    "Book": "Laura's Album",
+                    "Authors": "William Anderson",
+                    "Rate": 4.3
+                },
+                {
+                    "Book": "Falling Up",
+                    "Authors": "Shel Silverstein",
+                    "Rate": 4.34
+                },
+                {
+                    "Book": "Time For Kids: Butterflies!",
+                    "Authors": "Editors of TIME For Kids",
+                    "Rate": 4.0
+                },
+                {
+                    "Book": "The Annotated Charlotte's Web",
+                    "Authors": "E. B. White",
+                    "Rate": 4.16
+                },
+                {
+                    "Book": "My Little House Crafts Book",
+                    "Authors": "Carolyn Strom Collins",
+                    "Rate": 4.05
+                },
+                {
+                    "Book": "Pioneer Girl",
+                    "Authors": "William Anderson",
+                    "Rate": 4.15
+                },
+                {
+                    "Book": "A Light in the Attic Book and CD",
+                    "Authors": "Shel Silverstein",
+                    "Rate": 4.34
+                },
+                {
+                    "Book": "My Sweet-orange Tree",
+                    "Authors": "Jos\u00e9 Mauro de Vasconcelos",
+                    "Rate": 4.39
+                },
+                {
+                    "Book": "World Studies: Eastern Hemisphere",
+                    "Authors": "Heidi Hayes Jacobs;Pearson Prentice Hall;Kate Kinsella;Michal L. LeVasseur",
+                    "Rate": 2.0
+                }
+            ]
+        },
+        {
+            "tag": "Poetry",
+            "patterns": [
+                "Poetry",
+                "Recommend a Poetry book",
+                "Recommend a book in Poetry"
+            ],
+            "responses": [
+                {
+                    "Book": "Slouching Toward Nirvana",
+                    "Authors": "Charles Bukowski",
+                    "Rate": 3.99
+                },
+                {
+                    "Book": "The Throne of the Third Heaven of the Nations Millennium General Assembly",
+                    "Authors": "Denis Johnson",
+                    "Rate": 4.16
+                },
+                {
+                    "Book": "Howl",
+                    "Authors": "Allen Ginsberg;Barry Miles",
+                    "Rate": 4.22
+                },
+                {
+                    "Book": "The Collected Poetry of Nikki Giovanni",
+                    "Authors": "Nikki Giovanni",
+                    "Rate": NaN
+                },
+                {
+                    "Book": "The Canterbury Tales",
+                    "Authors": "Geoffrey Chaucer",
+                    "Rate": 3.49
+                },
+                {
+                    "Book": "The Canterbury Tales",
+                    "Authors": "Geoffrey Chaucer",
+                    "Rate": 3.49
+                },
+                {
+                    "Book": "The Comedy of Dante Alighieri, the Florentine: Purgatory",
+                    "Authors": "Dante Alighieri",
+                    "Rate": 4.02
+                },
+                {
+                    "Book": "The Divine Comedy & Paradise",
+                    "Authors": "Dante Alighieri",
+                    "Rate": 3.95
+                },
+                {
+                    "Book": "Li Po and Tu Fu",
+                    "Authors": "Arthur R. V. Cooper",
+                    "Rate": 4.11
+                },
+                {
+                    "Book": "Divina Commedia. English",
+                    "Authors": "Dante Alighieri",
+                    "Rate": 4.02
+                }
+            ]
+        },
+        {
+            "tag": "Science",
+            "patterns": [
+                "Science",
+                "Recommend a Science book",
+                "Recommend a book in Science"
+            ],
+            "responses": [
+                {
+                    "Book": "Modern Mind",
+                    "Authors": "Peter Watson",
+                    "Rate": 4.27
+                },
+                {
+                    "Book": "Genome",
+                    "Authors": "Matt Ridley",
+                    "Rate": 4.03
+                },
+                {
+                    "Book": "The Best American Science Writing 2002",
+                    "Authors": "Matt Ridley;Alan Lightman",
+                    "Rate": 3.88
+                },
+                {
+                    "Book": "How to Build a Time Machine",
+                    "Authors": "Paul Davies",
+                    "Rate": 3.82
+                },
+                {
+                    "Book": "The Fabric of the Cosmos",
+                    "Authors": "Brian Greene",
+                    "Rate": 4.12
+                },
+                {
+                    "Book": "The Origins of Life",
+                    "Authors": "John Maynard Smith;E\u00f6rs Szathm\u00e1ry",
+                    "Rate": 4.11
+                },
+                {
+                    "Book": "Power, Sex, Suicide",
+                    "Authors": "Nick Lane",
+                    "Rate": 4.24
+                },
+                {
+                    "Book": "Six Easy Pieces",
+                    "Authors": "Richard P. Feynman",
+                    "Rate": 4.2
+                },
+                {
+                    "Book": "Genetics and the Origin of Species",
+                    "Authors": "Theodosius Dobzhansky",
+                    "Rate": 4.15
+                },
+                {
+                    "Book": "The Adversary",
+                    "Authors": "Julian May",
+                    "Rate": 4.22
+                }
+            ]
+        },
+        {
+            "tag": "Literary Collections",
+            "patterns": [
+                "Literary Collections",
+                "Recommend a Literary Collections book",
+                "Recommend a book in Literary Collections"
+            ],
+            "responses": [
+                {
+                    "Book": "Tree and Leaf",
+                    "Authors": "John Ronald Reuel Tolkien",
+                    "Rate": 4.09
+                },
+                {
+                    "Book": "How to be Alone",
+                    "Authors": "Jonathan Franzen",
+                    "Rate": 3.6
+                },
+                {
+                    "Book": "Small Wonder",
+                    "Authors": "Barbara Kingsolver",
+                    "Rate": 4.01
+                },
+                {
+                    "Book": "The Curtain",
+                    "Authors": "Milan Kundera",
+                    "Rate": 3.96
+                },
+                {
+                    "Book": "Testaments Betrayed",
+                    "Authors": "Milan Kundera",
+                    "Rate": 4.04
+                },
+                {
+                    "Book": "The Portable James Joyce",
+                    "Authors": "James Joyce",
+                    "Rate": 4.16
+                },
+                {
+                    "Book": "The Portable Dorothy Parker",
+                    "Authors": "Dorothy Parker",
+                    "Rate": 4.34
+                },
+                {
+                    "Book": "Essays",
+                    "Authors": "Michel de Montaigne",
+                    "Rate": 4.23
+                },
+                {
+                    "Book": "Species of Spaces and Other Pieces",
+                    "Authors": "Georges Perec",
+                    "Rate": 4.28
+                },
+                {
+                    "Book": "Selected Writings",
+                    "Authors": "Saint Thomas (Aquinas);Ralph McInerny;Ralph M. McInerny",
+                    "Rate": 3.9
+                }
+            ]
+        },
+        {
+            "tag": "Business & Economics",
+            "patterns": [
+                "Business & Economics",
+                "Recommend a Business & Economics book",
+                "Recommend a book in Business & Economics"
+            ],
+            "responses": [
+                {
+                    "Book": "The Paradox of Choice",
+                    "Authors": "Barry Schwartz",
+                    "Rate": 3.84
+                },
+                {
+                    "Book": "The Innovator's Dilemma",
+                    "Authors": "Clayton M. Christensen",
+                    "Rate": 3.99
+                },
+                {
+                    "Book": "The Big Bing",
+                    "Authors": "Stanley Bing",
+                    "Rate": 3.08
+                },
+                {
+                    "Book": "Built to Last",
+                    "Authors": "Jim Collins;Jerry I. Porras",
+                    "Rate": 3.98
+                },
+                {
+                    "Book": "How to Buy, Sell, and Profit on eBay",
+                    "Authors": "Adam Ginsberg",
+                    "Rate": NaN
+                },
+                {
+                    "Book": "Mission Possible",
+                    "Authors": "Ken Blanchard;Terry Waghorn",
+                    "Rate": 3.42
+                },
+                {
+                    "Book": "Crucial Conversations",
+                    "Authors": "Kerry Patterson;Joseph Grenny;Ron McMillan;Al Switzler",
+                    "Rate": 4.01
+                },
+                {
+                    "Book": "Leadership in Organizations",
+                    "Authors": "Gary A. Yukl",
+                    "Rate": 3.68
+                },
+                {
+                    "Book": "Getting Things Done",
+                    "Authors": "David Allen",
+                    "Rate": 3.99
+                },
+                {
+                    "Book": "Bargaining for Advantage",
+                    "Authors": "G. Richard Shell",
+                    "Rate": 3.94
+                }
+            ]
+        },
+        {
+            "tag": "Social Science",
+            "patterns": [
+                "Social Science",
+                "Recommend a Social Science book",
+                "Recommend a book in Social Science"
+            ],
+            "responses": [
+                {
+                    "Book": "The Dead Beat",
+                    "Authors": "Marilyn Johnson",
+                    "Rate": 3.41
+                },
+                {
+                    "Book": "Fear of Falling",
+                    "Authors": "Barbara Ehrenreich",
+                    "Rate": 3.9
+                },
+                {
+                    "Book": "Smithsonian Intimate Guide to Human Origins",
+                    "Authors": "Carl Zimmer",
+                    "Rate": 4.0
+                },
+                {
+                    "Book": "The Last Dance",
+                    "Authors": "Lynne Ann DeSpelder;Albert Lee Strickland",
+                    "Rate": 3.77
+                },
+                {
+                    "Book": "North of South",
+                    "Authors": "Shiva Naipaul",
+                    "Rate": 3.93
+                },
+                {
+                    "Book": "Wanderlust",
+                    "Authors": "Rebecca Solnit",
+                    "Rate": 3.92
+                },
+                {
+                    "Book": "From Counterculture to Cyberculture",
+                    "Authors": "Fred Turner",
+                    "Rate": 3.96
+                },
+                {
+                    "Book": "The Columbia Reader on Lesbians and Gay Men in Media, Society, and Politics",
+                    "Authors": "Larry P. Gross;James D. Woods",
+                    "Rate": 3.93
+                },
+                {
+                    "Book": "Mythology",
+                    "Authors": "Edith Hamilton",
+                    "Rate": 3.99
+                },
+                {
+                    "Book": "Five Patients",
+                    "Authors": "Michael Crichton",
+                    "Rate": 3.48
+                }
+            ]
+        },
+        {
+            "tag": "Performing Arts",
+            "patterns": [
+                "Performing Arts",
+                "Recommend a Performing Arts book",
+                "Recommend a book in Performing Arts"
+            ],
+            "responses": [
+                {
+                    "Book": "The Making of Pride and Prejudice",
+                    "Authors": "Sue Birtwistle;Susie Conklin",
+                    "Rate": 4.43
+                },
+                {
+                    "Book": "The Actor in You",
+                    "Authors": "Robert L. Benedetti",
+                    "Rate": 3.7
+                },
+                {
+                    "Book": "Avid Editing",
+                    "Authors": "Sam Kauffmann",
+                    "Rate": 3.83
+                },
+                {
+                    "Book": "Directing the Documentary",
+                    "Authors": "Michael Rabiger",
+                    "Rate": 4.23
+                },
+                {
+                    "Book": "Introduction to Documentary",
+                    "Authors": "Bill Nichols",
+                    "Rate": 3.77
+                },
+                {
+                    "Book": "Looking Awry",
+                    "Authors": "Slavoj \u017di\u017eek",
+                    "Rate": 4.05
+                },
+                {
+                    "Book": "The Dark Side Of Genius",
+                    "Authors": "Donald Spoto",
+                    "Rate": 3.83
+                },
+                {
+                    "Book": "Four Weddings and a Funeral",
+                    "Authors": "Richard Curtis",
+                    "Rate": 3.76
+                },
+                {
+                    "Book": "The Power of One",
+                    "Authors": "Louis E. Catron",
+                    "Rate": 3.79
+                },
+                {
+                    "Book": "Star Wars",
+                    "Authors": "W. Haden Blackman",
+                    "Rate": 4.1
+                }
+            ]
+        },
+        {
+            "tag": "Cooking",
+            "patterns": [
+                "Cooking",
+                "Recommend a Cooking book",
+                "Recommend a book in Cooking"
+            ],
+            "responses": [
+                {
+                    "Book": "Giada's Family Dinners",
+                    "Authors": "Giada De Laurentiis",
+                    "Rate": 3.96
+                },
+                {
+                    "Book": "Small Bites, Big Nights",
+                    "Authors": "Govind Armstrong;Ann Wycoff;Alison Clare Steingold",
+                    "Rate": 3.6
+                },
+                {
+                    "Book": "Everyday Pasta",
+                    "Authors": "Giada De Laurentiis",
+                    "Rate": 4.09
+                },
+                {
+                    "Book": "Shakespeare's Kitchen",
+                    "Authors": "Francine Segan",
+                    "Rate": 3.99
+                },
+                {
+                    "Book": "What Einstein Told His Cook",
+                    "Authors": "Robert L. Wolke;Marlene Parrish",
+                    "Rate": 3.85
+                },
+                {
+                    "Book": "Essentials of Classic Italian Cooking",
+                    "Authors": "Marcella Hazan",
+                    "Rate": 4.17
+                },
+                {
+                    "Book": "I Like You",
+                    "Authors": "Amy Sedaris",
+                    "Rate": 3.87
+                },
+                {
+                    "Book": "Curries Without Worries",
+                    "Authors": "Sudha Koul",
+                    "Rate": 3.98
+                },
+                {
+                    "Book": "The McDougall Quick and Easy Cookbook",
+                    "Authors": "John A. McDougall;Mary McDougall",
+                    "Rate": 3.98
+                },
+                {
+                    "Book": "A Modernist View of Plated Desserts (Grand Finales)",
+                    "Authors": "Tish Boyle;Timothy Moriarty",
+                    "Rate": 4.24
+                }
+            ]
+        },
+        {
+            "tag": "Art",
+            "patterns": [
+                "Art",
+                "Recommend a Art book",
+                "Recommend a book in Art"
+            ],
+            "responses": [
+                {
+                    "Book": "Romanticism",
+                    "Authors": "Hugh Honour",
+                    "Rate": 3.73
+                },
+                {
+                    "Book": "The Visual Arts",
+                    "Authors": "Hugh Honour;John Fleming",
+                    "Rate": 3.82
+                },
+                {
+                    "Book": "Ways of Seeing",
+                    "Authors": "John Berger;Sven Blomberg;Chris Fox;Michael Dibb;Richard Hollis",
+                    "Rate": 3.78
+                },
+                {
+                    "Book": "For Lust of Knowing",
+                    "Authors": "Robert Irwin",
+                    "Rate": 3.7
+                },
+                {
+                    "Book": "What is Art?",
+                    "Authors": "Leo Tolstoy;Richard Pevear;Larissa Volokhonsky",
+                    "Rate": 3.7
+                },
+                {
+                    "Book": "The Philosophy of Andy Warhol",
+                    "Authors": "Andy Warhol",
+                    "Rate": 3.73
+                },
+                {
+                    "Book": "The Notebooks of Leonardo Da Vinci",
+                    "Authors": "Leonardo Da Vinci;Leonardo (da Vinci)",
+                    "Rate": 3.92
+                },
+                {
+                    "Book": "Paul Revere's Ride",
+                    "Authors": "David Hackett Fischer",
+                    "Rate": 4.11
+                },
+                {
+                    "Book": "Theory of Colours",
+                    "Authors": "Johann Wolfgang von Goethe;Donald Eastlake",
+                    "Rate": 4.07
+                },
+                {
+                    "Book": "The Language of New Media",
+                    "Authors": "Lev Manovich;Roger F. Malina;Sean Cubitt",
+                    "Rate": 3.85
+                }
+            ]
+        },
+        {
+            "tag": "Body, Mind & Spirit",
+            "patterns": [
+                "Body, Mind & Spirit",
+                "Recommend a Body, Mind & Spirit book",
+                "Recommend a book in Body, Mind & Spirit"
+            ],
+            "responses": [
+                {
+                    "Book": "The Active Side of Infinity",
+                    "Authors": "Carlos Castaneda",
+                    "Rate": 4.16
+                },
+                {
+                    "Book": "Beauty",
+                    "Authors": "John O'Donohue",
+                    "Rate": 4.45
+                },
+                {
+                    "Book": "I Ching",
+                    "Authors": "John Blofeld",
+                    "Rate": 4.19
+                },
+                {
+                    "Book": "Who are You?",
+                    "Authors": "Malcolm Godwin",
+                    "Rate": 3.48
+                },
+                {
+                    "Book": "The Lost World of Agharti",
+                    "Authors": "Alec Maclellan",
+                    "Rate": 3.79
+                },
+                {
+                    "Book": "The Everyday I Ching",
+                    "Authors": "Sarah Dening",
+                    "Rate": 4.19
+                },
+                {
+                    "Book": "The demon-haunted world",
+                    "Authors": "Carl Sagan",
+                    "Rate": 4.27
+                },
+                {
+                    "Book": "The Occult",
+                    "Authors": "Colin Wilson",
+                    "Rate": 3.92
+                },
+                {
+                    "Book": "Conversations with God",
+                    "Authors": "Neale Donald Walsch",
+                    "Rate": 4.17
+                },
+                {
+                    "Book": "The Dragon Doesn't Live Here Anymore",
+                    "Authors": "Alan Cohen",
+                    "Rate": 4.27
+                }
+            ]
+        },
+        {
+            "tag": "Travel",
+            "patterns": [
+                "Travel",
+                "Recommend a Travel book",
+                "Recommend a book in Travel"
+            ],
+            "responses": [
+                {
+                    "Book": "Forgotten New York",
+                    "Authors": "Kevin Walsh",
+                    "Rate": 4.18
+                },
+                {
+                    "Book": "The Lost Continent",
+                    "Authors": "Bill Bryson",
+                    "Rate": 3.83
+                },
+                {
+                    "Book": "Round Ireland with a Fridge",
+                    "Authors": "Tony Hawks",
+                    "Rate": 3.79
+                },
+                {
+                    "Book": "McCarthy's Bar",
+                    "Authors": "Pete McCarthy",
+                    "Rate": 3.79
+                },
+                {
+                    "Book": "Let's Go Australia 9th Edition",
+                    "Authors": "Let's Go Inc",
+                    "Rate": 3.92
+                },
+                {
+                    "Book": "The River at the Center of the World",
+                    "Authors": "Simon Winchester",
+                    "Rate": 3.92
+                },
+                {
+                    "Book": "Mediterranean Winter",
+                    "Authors": "Robert D. Kaplan",
+                    "Rate": 3.91
+                },
+                {
+                    "Book": "Stranger in the Forest",
+                    "Authors": "Eric Hansen",
+                    "Rate": 4.1
+                },
+                {
+                    "Book": "Iceland",
+                    "Authors": "David Roberts;Jon Krakauer",
+                    "Rate": 3.72
+                },
+                {
+                    "Book": "Neither Here Nor There:",
+                    "Authors": "Bill Bryson",
+                    "Rate": 3.87
+                }
+            ]
+        },
+        {
+            "tag": "Psychology",
+            "patterns": [
+                "Psychology",
+                "Recommend a Psychology book",
+                "Recommend a book in Psychology"
+            ],
+            "responses": [
+                {
+                    "Book": "Zen and the Art of Motorcycle Maintenance",
+                    "Authors": "Robert M. Pirsig",
+                    "Rate": 3.77
+                },
+                {
+                    "Book": "Mating in Captivity",
+                    "Authors": "Esther Perel",
+                    "Rate": 4.13
+                },
+                {
+                    "Book": "DREAM & THE UNDERWOR",
+                    "Authors": "James Hillman",
+                    "Rate": 4.23
+                },
+                {
+                    "Book": "The Dance of Intimacy",
+                    "Authors": "Harriet Lerner",
+                    "Rate": 4.06
+                },
+                {
+                    "Book": "Soul Mates",
+                    "Authors": "Thomas Moore",
+                    "Rate": 4.0
+                },
+                {
+                    "Book": "Social Psychology",
+                    "Authors": "Elliot Aronson;Timothy D. Wilson;Robin M. Akert",
+                    "Rate": 3.98
+                },
+                {
+                    "Book": "Difficult Conversations",
+                    "Authors": "Douglas Stone;Bruce Patton;Sheila Heen",
+                    "Rate": 4.07
+                },
+                {
+                    "Book": "The Blank Slate",
+                    "Authors": "Steven Pinker",
+                    "Rate": 4.08
+                },
+                {
+                    "Book": "Notebooks of the Mind",
+                    "Authors": "Vera John-Steiner",
+                    "Rate": 3.81
+                },
+                {
+                    "Book": "An Odyssey in Learning and Perception",
+                    "Authors": "Eleanor J. Gibson",
+                    "Rate": 4.5
+                }
+            ]
+        },
+        {
+            "tag": "Computers",
+            "patterns": [
+                "Computers",
+                "Recommend a Computers book",
+                "Recommend a book in Computers"
+            ],
+            "responses": [
+                {
+                    "Book": "Incident Response & Computer Forensics, 2nd Ed.",
+                    "Authors": "Kevin Mandia;Chris Prosise",
+                    "Rate": 3.68
+                },
+                {
+                    "Book": "C++ Programmer's Notebook",
+                    "Authors": "James Edward Keogh;John Shapley Gray",
+                    "Rate": 3.0
+                },
+                {
+                    "Book": "Java",
+                    "Authors": "Walter J. Savitch",
+                    "Rate": 3.86
+                },
+                {
+                    "Book": "Data Structures and Abstractions with Java",
+                    "Authors": "Frank M. Carrano",
+                    "Rate": 3.44
+                },
+                {
+                    "Book": "Robin Williams Web Design Workshop",
+                    "Authors": "John Tollett;Robin Williams;David Rohr",
+                    "Rate": 3.78
+                },
+                {
+                    "Book": "Structure and Interpretation of Computer Programs",
+                    "Authors": "Harold Abelson;Gerald Jay Sussman;Julie Sussman",
+                    "Rate": 4.45
+                },
+                {
+                    "Book": "Turtles, Termites, and Traffic Jams",
+                    "Authors": "Mitchel Resnick",
+                    "Rate": 3.85
+                },
+                {
+                    "Book": "The Non-designer's Web Book",
+                    "Authors": "Robin Williams;John Tollett",
+                    "Rate": 3.65
+                },
+                {
+                    "Book": "Don't Make Me Think!",
+                    "Authors": "Steve Krug",
+                    "Rate": 4.24
+                },
+                {
+                    "Book": "In the Beginning...was the Command Line",
+                    "Authors": "Neal Stephenson",
+                    "Rate": 3.79
+                }
+            ]
+        },
+        {
+            "tag": "Self-Help",
+            "patterns": [
+                "Self-Help",
+                "Recommend a Self-Help book",
+                "Recommend a book in Self-Help"
+            ],
+            "responses": [
+                {
+                    "Book": "Bad Childhood---Good Life",
+                    "Authors": "Laura Schlessinger",
+                    "Rate": 3.92
+                },
+                {
+                    "Book": "The Art of Loving",
+                    "Authors": "Erich Fromm",
+                    "Rate": 4.03
+                },
+                {
+                    "Book": "The Secret Lives of Men and Women",
+                    "Authors": "Frank Warren",
+                    "Rate": 4.37
+                },
+                {
+                    "Book": "Owning Your Own Shadow",
+                    "Authors": "Robert A. Johnson",
+                    "Rate": 4.07
+                },
+                {
+                    "Book": "Who Moved My Cheese?",
+                    "Authors": "Spencer Johnson",
+                    "Rate": 3.78
+                },
+                {
+                    "Book": "How to Have a Beautiful Mind",
+                    "Authors": "Edward De Bono",
+                    "Rate": 3.63
+                },
+                {
+                    "Book": "All I Really Need to Know I Learned in Kindergarten",
+                    "Authors": "Robert Fulghum",
+                    "Rate": 4.03
+                },
+                {
+                    "Book": "Ten Things I Wish I'd Known - Before I Went Out into the Real World",
+                    "Authors": "Maria Shriver",
+                    "Rate": 3.69
+                },
+                {
+                    "Book": "The War of Art",
+                    "Authors": "Steven Pressfield",
+                    "Rate": 4.02
+                },
+                {
+                    "Book": "Breaking Free from Compulsive Eating",
+                    "Authors": "Geneen Roth",
+                    "Rate": 4.01
+                }
+            ]
+        },
+        {
+            "tag": "Political Science",
+            "patterns": [
+                "Political Science",
+                "Recommend a Political Science book",
+                "Recommend a book in Political Science"
+            ],
+            "responses": [
+                {
+                    "Book": "The Crusader",
+                    "Authors": "Paul Kengor",
+                    "Rate": 4.2
+                },
+                {
+                    "Book": "Homegrown Democrat",
+                    "Authors": "Garrison Keillor",
+                    "Rate": 3.96
+                },
+                {
+                    "Book": "A Preface to Democratic Theory, Expanded Edition",
+                    "Authors": "Robert A. Dahl",
+                    "Rate": 3.62
+                },
+                {
+                    "Book": "The Intellectuals and the Flag",
+                    "Authors": "Todd Gitlin;Professor of Culture Journalism and Sociology Todd Gitlin",
+                    "Rate": 3.59
+                },
+                {
+                    "Book": "Seeing Like a State",
+                    "Authors": "James C. Scott",
+                    "Rate": 4.19
+                },
+                {
+                    "Book": "The Communist Manifesto: Marx",
+                    "Authors": "John Toews",
+                    "Rate": 3.54
+                },
+                {
+                    "Book": "American Government",
+                    "Authors": "Karen O'Connor;Larry Sabato",
+                    "Rate": 2.95
+                },
+                {
+                    "Book": "Essentials of American Government",
+                    "Authors": "Karen O'Connor;Larry J. Sabato",
+                    "Rate": 3.5
+                },
+                {
+                    "Book": "The Collapse of the Common Good",
+                    "Authors": "Philip K. Howard",
+                    "Rate": 3.92
+                },
+                {
+                    "Book": "Manufacturing Consent",
+                    "Authors": "Edward S. Herman;Noam Chomsky",
+                    "Rate": 4.24
+                }
+            ]
+        },
+        {
+            "tag": "Family & Relationships",
+            "patterns": [
+                "Family & Relationships",
+                "Recommend a Family & Relationships book",
+                "Recommend a book in Family & Relationships"
+            ],
+            "responses": [
+                {
+                    "Book": "Mars and Venus Book of Days",
+                    "Authors": "John Gray",
+                    "Rate": 3.54
+                },
+                {
+                    "Book": "Men Are from Mars, Women Are from Venus",
+                    "Authors": "John Gray",
+                    "Rate": 3.54
+                },
+                {
+                    "Book": "Smart Discipline(R)",
+                    "Authors": "Larry Koenig",
+                    "Rate": 3.99
+                },
+                {
+                    "Book": "How to Talk to Anyone : 92 Little Tricks for Big Success in Relationships",
+                    "Authors": "Leil Lowndes",
+                    "Rate": 3.78
+                },
+                {
+                    "Book": "Love and Saint Augustine",
+                    "Authors": "Hannah Arendt;Joanna Vecchiarelli Scott;Judith Chelius Stark",
+                    "Rate": 3.92
+                },
+                {
+                    "Book": "Think Like a Guy",
+                    "Authors": "Giuliana Depandi",
+                    "Rate": 3.15
+                },
+                {
+                    "Book": "The Mystery Method",
+                    "Authors": "Mystery;Chris Odom",
+                    "Rate": 3.71
+                },
+                {
+                    "Book": "The Black Veil",
+                    "Authors": "Rick Moody",
+                    "Rate": 3.06
+                },
+                {
+                    "Book": "Get Out of My Life, But First Could You Drive Me & Cheryl to the Mall",
+                    "Authors": "Anthony E. Wolf",
+                    "Rate": 3.94
+                },
+                {
+                    "Book": "Your Child's Self-esteem",
+                    "Authors": "Dorothy Corkille Briggs",
+                    "Rate": 4.26
+                }
+            ]
+        },
+        {
+            "tag": "Language Arts & Disciplines",
+            "patterns": [
+                "Language Arts & Disciplines",
+                "Recommend a Language Arts & Disciplines book",
+                "Recommend a book in Language Arts & Disciplines"
+            ],
+            "responses": [
+                {
+                    "Book": "The Elements of Style",
+                    "Authors": "William Strunk;Elwyn Brooks White",
+                    "Rate": 4.2
+                },
+                {
+                    "Book": "The Language Instinct",
+                    "Authors": "Steven Pinker",
+                    "Rate": 4.05
+                },
+                {
+                    "Book": "Three Genres",
+                    "Authors": "Stephen Minot",
+                    "Rate": 3.65
+                },
+                {
+                    "Book": "Why I Write",
+                    "Authors": "George Orwell",
+                    "Rate": 4.03
+                },
+                {
+                    "Book": "The Read-aloud Handbook",
+                    "Authors": "Jim Trelease",
+                    "Rate": 4.4
+                },
+                {
+                    "Book": "Moral Politics",
+                    "Authors": "George Lakoff",
+                    "Rate": 4.03
+                },
+                {
+                    "Book": "How to Write a Damn Good Novel",
+                    "Authors": "James N. Frey",
+                    "Rate": 3.85
+                },
+                {
+                    "Book": "A Writer's Workbook",
+                    "Authors": "Caroline Sharp;Elizabeth Gilbert",
+                    "Rate": 3.71
+                },
+                {
+                    "Book": "How to Write a Damn Good Mystery",
+                    "Authors": "James N. Frey",
+                    "Rate": 3.97
+                },
+                {
+                    "Book": "Better Than Sex",
+                    "Authors": "Hunter S. Thompson",
+                    "Rate": 3.76
+                }
+            ]
+        },
+        {
+            "tag": "Humor",
+            "patterns": [
+                "Humor",
+                "Recommend a Humor book",
+                "Recommend a book in Humor"
+            ],
+            "responses": [
+                {
+                    "Book": "What Would Machiavelli Do?",
+                    "Authors": "Stanley Bing",
+                    "Rate": 3.46
+                },
+                {
+                    "Book": "Grammar Snobs are Great Big Meanies",
+                    "Authors": "June Casagrande",
+                    "Rate": 3.78
+                },
+                {
+                    "Book": "The Deeper Meaning of Liff",
+                    "Authors": "Douglas Adams;John Lloyd",
+                    "Rate": 3.93
+                },
+                {
+                    "Book": "Yiddish with Dick and Jane",
+                    "Authors": "Ellis Weiner;Barbara Davilman",
+                    "Rate": 3.91
+                },
+                {
+                    "Book": "A Supposedly Fun Thing I'll Never Do Again",
+                    "Authors": "David Foster Wallace",
+                    "Rate": 4.27
+                },
+                {
+                    "Book": "Anne Rice's the Vampire Lestat",
+                    "Authors": "Faye Perozich;Anne Rice;Daerick Gross",
+                    "Rate": 4.19
+                },
+                {
+                    "Book": "Does Anybody Have a Problem with That?",
+                    "Authors": "Bill Maher",
+                    "Rate": 3.49
+                },
+                {
+                    "Book": "The Straight Dope",
+                    "Authors": "Cecil Adams;Ed Zotti",
+                    "Rate": 4.19
+                },
+                {
+                    "Book": "I Am the One that I Want",
+                    "Authors": "Margaret Cho",
+                    "Rate": 3.69
+                },
+                {
+                    "Book": "Aches & Pains",
+                    "Authors": "Maeve Binchy",
+                    "Rate": 3.54
+                }
+            ]
+        },
+        {
+            "tag": "Health & Fitness",
+            "patterns": [
+                "Health & Fitness",
+                "Recommend a Health & Fitness book",
+                "Recommend a book in Health & Fitness"
+            ],
+            "responses": [
+                {
+                    "Book": "YOU: The Owner's Manual",
+                    "Authors": "Michael F Roizen;Mehmet C Oz",
+                    "Rate": 3.82
+                },
+                {
+                    "Book": "The 3-Hour Diet (TM) On the Go (Collins Gem)",
+                    "Authors": "Jorge Cruise",
+                    "Rate": 3.08
+                },
+                {
+                    "Book": "Rainforest Home Remedies",
+                    "Authors": "Rosita Arvigo;Nadine Epstein",
+                    "Rate": 4.12
+                },
+                {
+                    "Book": "Why Do Men Fall Asleep After Sex?",
+                    "Authors": "Mark Leyner;Billy Goldberg",
+                    "Rate": 3.56
+                },
+                {
+                    "Book": "And The Band Played on",
+                    "Authors": "Randy Shilts",
+                    "Rate": 4.39
+                },
+                {
+                    "Book": "The Hot Zone",
+                    "Authors": "Richard Preston",
+                    "Rate": 4.11
+                },
+                {
+                    "Book": "The Body Remembers: The Psychophysiology of Trauma and Trauma Treatment",
+                    "Authors": "Babette Rothschild",
+                    "Rate": 4.27
+                },
+                {
+                    "Book": "Feeding the Hungry Heart",
+                    "Authors": "Geneen Roth",
+                    "Rate": 3.97
+                },
+                {
+                    "Book": "The Evolution of Desire",
+                    "Authors": "David M. Buss",
+                    "Rate": 4.07
+                },
+                {
+                    "Book": "Why is sex fun?",
+                    "Authors": "Jared M. Diamond",
+                    "Rate": 3.71
+                }
+            ]
+        },
+        {
+            "tag": "Children's stories",
+            "patterns": [
+                "Children's stories",
+                "Recommend a Children's stories book",
+                "Recommend a book in Children's stories"
+            ],
+            "responses": [
+                {
+                    "Book": "Beware, Princess Elizabeth",
+                    "Authors": "Carolyn Meyer",
+                    "Rate": 3.88
+                },
+                {
+                    "Book": "I Wish that I Had Duck Feet",
+                    "Authors": "Dr. Seuss;Barney Tobey",
+                    "Rate": 4.16
+                },
+                {
+                    "Book": "Oh Say Can You Say?",
+                    "Authors": "Dr. Seuss",
+                    "Rate": 4.01
+                },
+                {
+                    "Book": "Fairy Tales",
+                    "Authors": "Terry Jones;Michael Foreman",
+                    "Rate": 4.23
+                },
+                {
+                    "Book": "Party Shoes",
+                    "Authors": "Noel Streatfeild",
+                    "Rate": 3.64
+                },
+                {
+                    "Book": "20,000 Leagues Under the Sea",
+                    "Authors": "Jules Verne;Pauline Francis",
+                    "Rate": 3.76
+                },
+                {
+                    "Book": "Five Go Adventuring Again",
+                    "Authors": "Enid Blyton",
+                    "Rate": 4.01
+                },
+                {
+                    "Book": "Five Go to Smuggler's Top",
+                    "Authors": "Enid Blyton",
+                    "Rate": 4.05
+                },
+                {
+                    "Book": "Five Have a Mystery to Solve",
+                    "Authors": "Enid Blyton",
+                    "Rate": 3.9
+                },
+                {
+                    "Book": "Where's My Cow?",
+                    "Authors": "Terry Pratchett",
+                    "Rate": 4.11
+                }
+            ]
+        },
+        {
+            "tag": "Education",
+            "patterns": [
+                "Education",
+                "Recommend a Education book",
+                "Recommend a book in Education"
+            ],
+            "responses": [
+                {
+                    "Book": "Savage Inequalities",
+                    "Authors": "Jonathan Kozol",
+                    "Rate": 4.24
+                },
+                {
+                    "Book": "The World Treasury of Physics, Astronomy, and Mathematics",
+                    "Authors": "Timothy Ferris;Clifton Fadiman",
+                    "Rate": 4.12
+                },
+                {
+                    "Book": "Me Talk Pretty One Day",
+                    "Authors": "David Sedaris",
+                    "Rate": 3.98
+                },
+                {
+                    "Book": "Common Ground",
+                    "Authors": "J. Anthony Lukas",
+                    "Rate": 4.27
+                },
+                {
+                    "Book": "Chomsky on Democracy & Education",
+                    "Authors": "Noam Chomsky;Carlos Peregr\u00edn Otero",
+                    "Rate": 3.93
+                },
+                {
+                    "Book": "SCHOLASTIC SUCCESS WITH 4TH GRADE(WORKBOOK)",
+                    "Authors": "Terry Cooper",
+                    "Rate": 4.57
+                },
+                {
+                    "Book": "Lila",
+                    "Authors": "Robert M. Pirsig",
+                    "Rate": 3.78
+                },
+                {
+                    "Book": "The Chosen",
+                    "Authors": "Jerome Karabel",
+                    "Rate": 4.06
+                },
+                {
+                    "Book": "Uncle Shelby'S Abz Book",
+                    "Authors": "Shel Silverstein",
+                    "Rate": 4.37
+                },
+                {
+                    "Book": "Teach Your Child to Read in 100 Easy Lessons",
+                    "Authors": "Siegfried Engelmann;Phyllis Haddox;Elaine Bruner",
+                    "Rate": 4.15
+                }
+            ]
+        },
+        {
+            "tag": "Medical",
+            "patterns": [
+                "Medical",
+                "Recommend a Medical book",
+                "Recommend a book in Medical"
+            ],
+            "responses": [
+                {
+                    "Book": "As Nature Made Him",
+                    "Authors": "John Colapinto",
+                    "Rate": 3.97
+                },
+                {
+                    "Book": "Goodman & Gilman's The Pharmacological Basis of Therapeutics, Eleventh Edition",
+                    "Authors": "Laurence Brunton;John Lazo;Keith Parker",
+                    "Rate": NaN
+                },
+                {
+                    "Book": "The Coming Plague",
+                    "Authors": "Laurie Garrett",
+                    "Rate": 4.17
+                },
+                {
+                    "Book": "Alcestis",
+                    "Authors": "Euripides",
+                    "Rate": 3.83
+                },
+                {
+                    "Book": "Manic-Depressive Illness",
+                    "Authors": "Frederick K. Goodwin;Kay Redfield Jamison",
+                    "Rate": 4.39
+                },
+                {
+                    "Book": "The Man Who Tasted Shapes",
+                    "Authors": "Richard E. Cytowic",
+                    "Rate": 3.88
+                },
+                {
+                    "Book": "Awakenings",
+                    "Authors": "Oliver W. Sacks",
+                    "Rate": 4.09
+                },
+                {
+                    "Book": "The Truth About The Drug Companies",
+                    "Authors": "Marcia Angell",
+                    "Rate": 3.94
+                },
+                {
+                    "Book": "Leaps of Faith",
+                    "Authors": "Nicholas Humphrey",
+                    "Rate": 3.76
+                },
+                {
+                    "Book": "Anesthesiology Review",
+                    "Authors": "Ronald J. Faust;Roy F. Cucchiara",
+                    "Rate": 3.64
+                }
+            ]
+        },
+        {
+            "tag": "Nature",
+            "patterns": [
+                "Nature",
+                "Recommend a Nature book",
+                "Recommend a book in Nature"
+            ],
+            "responses": [
+                {
+                    "Book": "The Sense of Wonder",
+                    "Authors": "Rachel Carson",
+                    "Rate": 4.39
+                },
+                {
+                    "Book": "The Great Ape Project",
+                    "Authors": "Paola Cavalieri;Peter Singer",
+                    "Rate": 4.06
+                },
+                {
+                    "Book": "Dominion",
+                    "Authors": "Matthew Scully",
+                    "Rate": 4.16
+                },
+                {
+                    "Book": "The Dragons of Eden",
+                    "Authors": "Carl Sagan",
+                    "Rate": 4.17
+                },
+                {
+                    "Book": "The Control of Nature",
+                    "Authors": "John McPhee",
+                    "Rate": 4.24
+                },
+                {
+                    "Book": "Coming Into the Country",
+                    "Authors": "John McPhee",
+                    "Rate": 4.22
+                },
+                {
+                    "Book": "Hen's Teeth and Horse's Toes",
+                    "Authors": "Stephen Jay Gould",
+                    "Rate": 4.1
+                },
+                {
+                    "Book": "Eight Little Piggies",
+                    "Authors": "Stephen Jay Gould",
+                    "Rate": 4.09
+                },
+                {
+                    "Book": "Demonic Males",
+                    "Authors": "Richard W. Wrangham;Dale Peterson",
+                    "Rate": 4.02
+                },
+                {
+                    "Book": "Hope is the Thing with Feathers",
+                    "Authors": "Christopher Cokinos",
+                    "Rate": 4.21
+                }
+            ]
+        },
+        {
+            "tag": "Adventure stories",
+            "patterns": [
+                "Adventure stories",
+                "Recommend a Adventure stories book",
+                "Recommend a book in Adventure stories"
+            ],
+            "responses": [
+                {
+                    "Book": "Master of the Game",
+                    "Authors": "Sidney Sheldon",
+                    "Rate": 4.11
+                },
+                {
+                    "Book": "If Tomorrow Comes",
+                    "Authors": "Sidney Sheldon",
+                    "Rate": 4.04
+                },
+                {
+                    "Book": "Murder in LaMut",
+                    "Authors": "Raymond E. Feist;Joel Rosenberg",
+                    "Rate": 3.7
+                },
+                {
+                    "Book": "The Reverse of the Medal",
+                    "Authors": "Patrick O'Brian",
+                    "Rate": 4.41
+                },
+                {
+                    "Book": "Oh, the Places You'll Go!",
+                    "Authors": "Dr. Seuss",
+                    "Rate": 4.35
+                },
+                {
+                    "Book": "Illusions",
+                    "Authors": "Richard Bach",
+                    "Rate": 4.15
+                },
+                {
+                    "Book": "Airframe",
+                    "Authors": "Michael Crichton",
+                    "Rate": 3.7
+                },
+                {
+                    "Book": "Charlie and the Great Glass Elevator",
+                    "Authors": "Roald Dahl",
+                    "Rate": 3.66
+                },
+                {
+                    "Book": "James and the Giant Peach",
+                    "Authors": "Roald Dahl;Quentin Blake",
+                    "Rate": 4.0
+                },
+                {
+                    "Book": "From Russia with Love",
+                    "Authors": "Ian Fleming",
+                    "Rate": 3.89
+                }
+            ]
+        },
+        {
+            "tag": "Games",
+            "patterns": [
+                "Games",
+                "Recommend a Games book",
+                "Recommend a book in Games"
+            ],
+            "responses": [
+                {
+                    "Book": "Final Fantasy\u00ae Origins Official Strategy Guide",
+                    "Authors": "Casey Loe;Laura M. Parkinson",
+                    "Rate": 4.0
+                },
+                {
+                    "Book": "World of Warcraft Atlas",
+                    "Authors": "Brady Games",
+                    "Rate": 4.08
+                },
+                {
+                    "Book": "Killer 7 Official Strategy Guide",
+                    "Authors": "BradyGames",
+                    "Rate": 4.0
+                },
+                {
+                    "Book": "Juiced",
+                    "Authors": "Doug Walsh",
+                    "Rate": 0.0
+                },
+                {
+                    "Book": "Dragon Quest VIII",
+                    "Authors": "Dan Birlew",
+                    "Rate": 4.14
+                },
+                {
+                    "Book": "Castlevania",
+                    "Authors": "BradyGames (Firm)",
+                    "Rate": 3.7
+                },
+                {
+                    "Book": "The Bard's Tale",
+                    "Authors": "Kaizen Media Group (CRT);Craig Keller",
+                    "Rate": 4.17
+                },
+                {
+                    "Book": "Elder Scrolls IV",
+                    "Authors": "Peter Olafson",
+                    "Rate": 4.31
+                },
+                {
+                    "Book": "Player's Handbook II",
+                    "Authors": "David Noonan",
+                    "Rate": 3.75
+                },
+                {
+                    "Book": "Random House Crossword Megaomnibus",
+                    "Authors": "United Feature Syndication",
+                    "Rate": 0.0
+                }
+            ]
+        },
+        {
+            "tag": "English fiction",
+            "patterns": [
+                "English fiction",
+                "Recommend a English fiction book",
+                "Recommend a book in English fiction"
+            ],
+            "responses": [
+                {
+                    "Book": "Mystical Paths",
+                    "Authors": "Susan Howatch",
+                    "Rate": 4.23
+                },
+                {
+                    "Book": "Glittering Images",
+                    "Authors": "Susan Howatch",
+                    "Rate": 4.07
+                },
+                {
+                    "Book": "The Treason of Isengard",
+                    "Authors": "John Ronald Reuel Tolkien;Christopher Tolkien",
+                    "Rate": 4.16
+                },
+                {
+                    "Book": "The Wanderer",
+                    "Authors": "Knut Hamsun;Gunnvor Stallybrass",
+                    "Rate": 3.96
+                },
+                {
+                    "Book": "The African Trilogy",
+                    "Authors": "Chinua Achebe",
+                    "Rate": 4.28
+                },
+                {
+                    "Book": "The Reality Dysfunction",
+                    "Authors": "Peter F. Hamilton",
+                    "Rate": 4.14
+                },
+                {
+                    "Book": "The Dark Half",
+                    "Authors": "Stephen King",
+                    "Rate": 3.76
+                },
+                {
+                    "Book": "Nightmares and Dreamscapes",
+                    "Authors": "Stephen King",
+                    "Rate": 3.93
+                },
+                {
+                    "Book": "Three Complete Novels",
+                    "Authors": "Edward Morgan Forster",
+                    "Rate": 4.2
+                },
+                {
+                    "Book": "Strata",
+                    "Authors": "Terry Pratchett",
+                    "Rate": 3.49
+                }
+            ]
+        },
+        {
+            "tag": "Music",
+            "patterns": [
+                "Music",
+                "Recommend a Music book",
+                "Recommend a book in Music"
+            ],
+            "responses": [
+                {
+                    "Book": "A Hard Day's Write, 3e",
+                    "Authors": "Steve Turner",
+                    "Rate": 4.18
+                },
+                {
+                    "Book": "Midnight Riders",
+                    "Authors": "Scott Freeman",
+                    "Rate": 3.98
+                },
+                {
+                    "Book": "A Day in the Life",
+                    "Authors": "Mark Hertsgaard",
+                    "Rate": 4.16
+                },
+                {
+                    "Book": "Fourth of July mice",
+                    "Authors": "Bethany Roberts",
+                    "Rate": 3.23
+                },
+                {
+                    "Book": "Mozart's Don Giovanni",
+                    "Authors": "Wolfgang Amadeus Mozart;Ellen H. Bleiler;Lorenzo Da Ponte",
+                    "Rate": 3.93
+                },
+                {
+                    "Book": "Michael W. Smith",
+                    "Authors": "Michael W. Smith",
+                    "Rate": 3.8
+                },
+                {
+                    "Book": "The Walrus Was Paul",
+                    "Authors": "R. Gary Patterson",
+                    "Rate": 3.73
+                },
+                {
+                    "Book": "Fargo Rock City",
+                    "Authors": "Chuck Klosterman",
+                    "Rate": 3.8
+                },
+                {
+                    "Book": "Deluxe Encyclopedia of Mandolin Chords",
+                    "Authors": "John Baxter",
+                    "Rate": 3.83
+                },
+                {
+                    "Book": "Moonage Daydream",
+                    "Authors": "David Bowie",
+                    "Rate": 4.3
+                }
+            ]
+        },
+        {
+            "tag": "Sports & Recreation",
+            "patterns": [
+                "Sports & Recreation",
+                "Recommend a Sports & Recreation book",
+                "Recommend a book in Sports & Recreation"
+            ],
+            "responses": [
+                {
+                    "Book": "Slider",
+                    "Authors": "Patrick Robinson",
+                    "Rate": 4.18
+                },
+                {
+                    "Book": "Touching the Void",
+                    "Authors": "Joe Simpson",
+                    "Rate": 4.21
+                },
+                {
+                    "Book": "23 Days in July",
+                    "Authors": "John Wilcockson",
+                    "Rate": 3.67
+                },
+                {
+                    "Book": "A Walk in the Woods",
+                    "Authors": "Bill Bryson",
+                    "Rate": 4.06
+                },
+                {
+                    "Book": "The Best American Sports Writing 2003",
+                    "Authors": "Glenn Stout;Buzz Bissinger",
+                    "Rate": 3.85
+                },
+                {
+                    "Book": "The Last Shot",
+                    "Authors": "Darcy Frey",
+                    "Rate": 4.16
+                },
+                {
+                    "Book": "The Best American Sports Writing 2006",
+                    "Authors": "Glenn Stout;Michael Lewis",
+                    "Rate": 3.75
+                },
+                {
+                    "Book": "Three Nights in August",
+                    "Authors": "H. G. Bissinger;Buzz Bissinger",
+                    "Rate": 3.87
+                },
+                {
+                    "Book": "My Favourite Year",
+                    "Authors": "Nick Hornby",
+                    "Rate": 3.69
+                },
+                {
+                    "Book": "The Boys of Everest",
+                    "Authors": "Clint Willis",
+                    "Rate": 3.86
+                }
+            ]
+        },
+        {
+            "tag": "Detective and mystery stories",
+            "patterns": [
+                "Detective and mystery stories",
+                "Recommend a Detective and mystery stories book",
+                "Recommend a book in Detective and mystery stories"
+            ],
+            "responses": [
+                {
+                    "Book": "Spider's Web",
+                    "Authors": "Charles Osborne;Agatha Christie",
+                    "Rate": 3.83
+                },
+                {
+                    "Book": "Murder in Mesopotamia",
+                    "Authors": "Agatha Christie",
+                    "Rate": 3.89
+                },
+                {
+                    "Book": "Death in the Clouds",
+                    "Authors": "Agatha Christie",
+                    "Rate": 3.8
+                },
+                {
+                    "Book": "Appointment with Death",
+                    "Authors": "Agatha Christie",
+                    "Rate": 3.86
+                },
+                {
+                    "Book": "The Big Four",
+                    "Authors": "Agatha Christie",
+                    "Rate": 3.59
+                },
+                {
+                    "Book": "The Hollow",
+                    "Authors": "Agatha Christie",
+                    "Rate": 3.79
+                },
+                {
+                    "Book": "The Mysterious Mr. Quin",
+                    "Authors": "Agatha Christie",
+                    "Rate": 3.72
+                },
+                {
+                    "Book": "The Listerdale Mystery",
+                    "Authors": "Agatha Christie",
+                    "Rate": 3.55
+                },
+                {
+                    "Book": "Hercule Poirot's Casebook",
+                    "Authors": "Agatha Christie",
+                    "Rate": 4.3
+                },
+                {
+                    "Book": "Sherlock Holmes the Complete Novels and Stories Book Discussion Kit",
+                    "Authors": NaN,
+                    "Rate": 4.47
+                }
+            ]
+        },
+        {
+            "tag": "Fantasy fiction",
+            "patterns": [
+                "Fantasy fiction",
+                "Recommend a Fantasy fiction book",
+                "Recommend a book in Fantasy fiction"
+            ],
+            "responses": [
+                {
+                    "Book": "Jimmy the Hand",
+                    "Authors": "Raymond E. Feist;S. M. Stirling",
+                    "Rate": 3.95
+                },
+                {
+                    "Book": "The Mad Ship",
+                    "Authors": "Robin Hobb",
+                    "Rate": 4.24
+                },
+                {
+                    "Book": "Lirael",
+                    "Authors": "Garth Nix",
+                    "Rate": 4.3
+                },
+                {
+                    "Book": "The Fellowship of the Ring",
+                    "Authors": "John Ronald Reuel Tolkien",
+                    "Rate": 4.52
+                },
+                {
+                    "Book": "The Phantom Tollbooth",
+                    "Authors": "Norton Juster",
+                    "Rate": 4.21
+                },
+                {
+                    "Book": "Queen of Sorcery",
+                    "Authors": "David Eddings",
+                    "Rate": 4.14
+                },
+                {
+                    "Book": "Castle of Wizardry",
+                    "Authors": "David Eddings",
+                    "Rate": 4.17
+                },
+                {
+                    "Book": "Eric",
+                    "Authors": "Terry Pratchett",
+                    "Rate": 3.75
+                },
+                {
+                    "Book": "Dark Lord of Derkholm",
+                    "Authors": "Diana Wynne Jones",
+                    "Rate": 4.12
+                },
+                {
+                    "Book": "The Master of Whitestorm",
+                    "Authors": "Janny Wurts",
+                    "Rate": 3.91
+                }
+            ]
+        },
+        {
+            "tag": "American fiction",
+            "patterns": [
+                "American fiction",
+                "Recommend a American fiction book",
+                "Recommend a book in American fiction"
+            ],
+            "responses": [
+                {
+                    "Book": "The One Tree",
+                    "Authors": "Stephen R. Donaldson",
+                    "Rate": 3.97
+                },
+                {
+                    "Book": "Assassin's Apprentice",
+                    "Authors": "Robin Hobb",
+                    "Rate": 4.15
+                },
+                {
+                    "Book": "Girls' Night in",
+                    "Authors": "Jessica Adams;Chris Manby;Fiona Walker",
+                    "Rate": 3.26
+                },
+                {
+                    "Book": "They Do it with Mirrors",
+                    "Authors": "Agatha Christie",
+                    "Rate": 3.75
+                },
+                {
+                    "Book": "Survivor",
+                    "Authors": "Chuck Palahniuk",
+                    "Rate": 3.92
+                },
+                {
+                    "Book": "Bagombo Snuff Box",
+                    "Authors": "Kurt Vonnegut",
+                    "Rate": 3.72
+                },
+                {
+                    "Book": "Sabbath's Theater",
+                    "Authors": "Philip Roth",
+                    "Rate": 3.85
+                },
+                {
+                    "Book": "Raise High the Roof Beam, Carpenters and Seymour",
+                    "Authors": "Jerome David Salinger",
+                    "Rate": 4.12
+                },
+                {
+                    "Book": "American Psycho",
+                    "Authors": "Bret Easton Ellis",
+                    "Rate": 3.82
+                },
+                {
+                    "Book": "The Hunters",
+                    "Authors": "Claire Messud",
+                    "Rate": 3.4
+                }
+            ]
+        },
+        {
+            "tag": "True Crime",
+            "patterns": [
+                "True Crime",
+                "Recommend a True Crime book",
+                "Recommend a book in True Crime"
+            ],
+            "responses": [
+                {
+                    "Book": "The Black Dahlia Files",
+                    "Authors": "Don Wolfe",
+                    "Rate": 3.84
+                },
+                {
+                    "Book": "The Best American Crime Writing 2006",
+                    "Authors": "Mark Bowden;Otto Penzler;Thomas H. Cook",
+                    "Rate": 3.99
+                },
+                {
+                    "Book": "What the Corpse Revealed",
+                    "Authors": "Hugh Miller",
+                    "Rate": 3.79
+                },
+                {
+                    "Book": "Abandoned Prayers",
+                    "Authors": "Gregg Olsen",
+                    "Rate": 3.78
+                },
+                {
+                    "Book": "Into the Wild",
+                    "Authors": "Jon Krakauer",
+                    "Rate": 3.97
+                },
+                {
+                    "Book": "In Cold Blood",
+                    "Authors": "Truman Capote",
+                    "Rate": 4.07
+                },
+                {
+                    "Book": "Death's Acre",
+                    "Authors": "Bill Bass;William M. Bass;Jon Jefferson",
+                    "Rate": 4.18
+                },
+                {
+                    "Book": "The Stranger Beside Me",
+                    "Authors": "Ann Rule",
+                    "Rate": 4.14
+                },
+                {
+                    "Book": "Lines and Shadows",
+                    "Authors": "Joseph Wambaugh",
+                    "Rate": 3.79
+                },
+                {
+                    "Book": "In a Sunburned Country",
+                    "Authors": "Bill Bryson",
+                    "Rate": 4.07
+                }
+            ]
+        },
+        {
+            "tag": "Foreign Language Study",
+            "patterns": [
+                "Foreign Language Study",
+                "Recommend a Foreign Language Study book",
+                "Recommend a book in Foreign Language Study"
+            ],
+            "responses": [
+                {
+                    "Book": "Easy French Reader, Second Edition",
+                    "Authors": "R. de Roussy de Sales",
+                    "Rate": 3.84
+                },
+                {
+                    "Book": "Practice Makes Perfect: Italian Verb Tenses",
+                    "Authors": "Paola Nanni-Tate",
+                    "Rate": 4.0
+                },
+                {
+                    "Book": "The Franco-Prussian War",
+                    "Authors": "Michael Howard",
+                    "Rate": 4.05
+                },
+                {
+                    "Book": "Life Is a Dream/La Vida Es Sue\u00f1o",
+                    "Authors": "Pedro Calderon de la Barca;Stanley Appelbaum",
+                    "Rate": 3.98
+                },
+                {
+                    "Book": "Jungle Love Level 5",
+                    "Authors": "Margaret Johnson",
+                    "Rate": 3.37
+                },
+                {
+                    "Book": "Entre Amis",
+                    "Authors": "Michael Oates;Larbi Oukada",
+                    "Rate": 3.52
+                },
+                {
+                    "Book": "Merde!",
+                    "Authors": "Genevieve",
+                    "Rate": 3.95
+                },
+                {
+                    "Book": "Merde Encore!",
+                    "Authors": "Genevieve",
+                    "Rate": 3.94
+                },
+                {
+                    "Book": "Tibullus",
+                    "Authors": "Michael C. J. Putnam",
+                    "Rate": 3.67
+                },
+                {
+                    "Book": "Latin Via Ovid",
+                    "Authors": "Norma Goldman;Jacob E. Nyenhuis",
+                    "Rate": 4.38
+                }
+            ]
+        },
+        {
+            "tag": "Science fiction",
+            "patterns": [
+                "Science fiction",
+                "Recommend a Science fiction book",
+                "Recommend a book in Science fiction"
+            ],
+            "responses": [
+                {
+                    "Book": "Gravity",
+                    "Authors": "Tess Gerritsen",
+                    "Rate": 4.04
+                },
+                {
+                    "Book": "Traitor",
+                    "Authors": "Matthew Woodring Stover",
+                    "Rate": 4.0
+                },
+                {
+                    "Book": "A Second Chance at Eden",
+                    "Authors": "Peter F. Hamilton",
+                    "Rate": 4.02
+                },
+                {
+                    "Book": "Stranger in a Strange Land",
+                    "Authors": "Robert A. Heinlein",
+                    "Rate": 3.92
+                },
+                {
+                    "Book": "Visions from Nowhere",
+                    "Authors": "William Arrow",
+                    "Rate": 3.23
+                },
+                {
+                    "Book": "Triax",
+                    "Authors": "Robert Silverberg",
+                    "Rate": 3.69
+                },
+                {
+                    "Book": "Breakfast of Champions",
+                    "Authors": NaN,
+                    "Rate": 4.0
+                },
+                {
+                    "Book": "Time Quartet",
+                    "Authors": "Madeleine L'Engle",
+                    "Rate": 4.35
+                },
+                {
+                    "Book": "The Foundation Trilogy",
+                    "Authors": "Isaac Asimov",
+                    "Rate": 4.4
+                },
+                {
+                    "Book": "20,000 Leagues Under the Sea",
+                    "Authors": "Jules Verne",
+                    "Rate": 3.88
+                }
+            ]
+        },
+        {
+            "tag": "Law",
+            "patterns": [
+                "Law",
+                "Recommend a Law book",
+                "Recommend a book in Law"
+            ],
+            "responses": [
+                {
+                    "Book": "Organized Crime",
+                    "Authors": "Michael D. Lyman;Gary W. Potter",
+                    "Rate": 3.83
+                },
+                {
+                    "Book": "Antitrust Law, Second Edition",
+                    "Authors": "Richard A. Posner",
+                    "Rate": 4.0
+                },
+                {
+                    "Book": "Uncommon Ground: Rethinking the Human Place in Nature",
+                    "Authors": "William Cronon",
+                    "Rate": 4.16
+                },
+                {
+                    "Book": "One L",
+                    "Authors": "Scott Turow",
+                    "Rate": 3.66
+                },
+                {
+                    "Book": "Crime And Punishment In American History",
+                    "Authors": "Lawrence Friedman",
+                    "Rate": 3.89
+                },
+                {
+                    "Book": "Knowledge And Decisions",
+                    "Authors": "Thomas Sowell",
+                    "Rate": 4.38
+                },
+                {
+                    "Book": "The Science of Sherlock Holmes",
+                    "Authors": "E. J. Wagner",
+                    "Rate": 4.22
+                },
+                {
+                    "Book": "The Ethics and Politics of Asylum",
+                    "Authors": "Matthew J. Gibney",
+                    "Rate": 3.55
+                },
+                {
+                    "Book": "Sex and Reason",
+                    "Authors": "Richard A. POSNER",
+                    "Rate": 3.9
+                },
+                {
+                    "Book": "Summer for the Gods",
+                    "Authors": NaN,
+                    "Rate": 3.9
+                }
+            ]
+        },
+        {
+            "tag": "Young Adult Fiction",
+            "patterns": [
+                "Young Adult Fiction",
+                "Recommend a Young Adult Fiction book",
+                "Recommend a book in Young Adult Fiction"
+            ],
+            "responses": [
+                {
+                    "Book": "Midnighters #2: Touching Darkness",
+                    "Authors": "Scott Westerfeld",
+                    "Rate": NaN
+                },
+                {
+                    "Book": "The Queen of Attolia",
+                    "Authors": "Megan Whalen Turner",
+                    "Rate": NaN
+                },
+                {
+                    "Book": "Hexwood",
+                    "Authors": "Diana Wynne Jones",
+                    "Rate": 3.99
+                },
+                {
+                    "Book": "Twilight",
+                    "Authors": "Stephenie Meyer",
+                    "Rate": 3.59
+                },
+                {
+                    "Book": "Cirque Du Freak #10: The Lake of Souls",
+                    "Authors": "Darren Shan",
+                    "Rate": 4.19
+                },
+                {
+                    "Book": "Gossip Girl #1",
+                    "Authors": "Cecily von Ziegesar",
+                    "Rate": 3.51
+                },
+                {
+                    "Book": "Gossip Girl #3: All I Want is Everything",
+                    "Authors": "Cecily von Ziegesar",
+                    "Rate": 3.55
+                },
+                {
+                    "Book": "The House of the Scorpion",
+                    "Authors": "Nancy Farmer",
+                    "Rate": 4.1
+                },
+                {
+                    "Book": "First Meetings",
+                    "Authors": "Orson Scott Card",
+                    "Rate": 3.83
+                },
+                {
+                    "Book": "Tom Clancy's Net Force: Virtual Vandals",
+                    "Authors": "Tom Clancy;Steve Pieczenik;Diane Duane",
+                    "Rate": NaN
+                }
+            ]
+        },
+        {
+            "tag": "Photography",
+            "patterns": [
+                "Photography",
+                "Recommend a Photography book",
+                "Recommend a book in Photography"
+            ],
+            "responses": [
+                {
+                    "Book": "Dreaming in Pictures",
+                    "Authors": "Douglas Robert Nickel;Lewis Carroll;San Francisco Museum of Modern Art",
+                    "Rate": 4.01
+                },
+                {
+                    "Book": "The Illustrated Story Of O",
+                    "Authors": "Pauline Reage",
+                    "Rate": 4.0
+                },
+                {
+                    "Book": "Geisha",
+                    "Authors": "Jodi Cobb;Ian Buruma",
+                    "Rate": 3.89
+                },
+                {
+                    "Book": "In Focus",
+                    "Authors": "National Geographic Society (U.S.)",
+                    "Rate": 4.25
+                },
+                {
+                    "Book": "National Geographic Society",
+                    "Authors": "C. D.B. Bryan",
+                    "Rate": 4.12
+                },
+                {
+                    "Book": "The Camera",
+                    "Authors": "Ansel Adams",
+                    "Rate": 4.19
+                },
+                {
+                    "Book": "The Negative",
+                    "Authors": "Ansel Adams",
+                    "Rate": 4.4
+                },
+                {
+                    "Book": "The Print",
+                    "Authors": "Ansel Adams",
+                    "Rate": 4.37
+                },
+                {
+                    "Book": "Photography's Other Histories",
+                    "Authors": "Christopher Pinney;Nicolas Peterson;Nicholas Thomas",
+                    "Rate": 3.73
+                },
+                {
+                    "Book": "Posing for Portrait Photography",
+                    "Authors": "Jeff Smith",
+                    "Rate": 3.38
+                }
+            ]
+        },
+        {
+            "tag": "Architecture",
+            "patterns": [
+                "Architecture",
+                "Recommend a Architecture book",
+                "Recommend a book in Architecture"
+            ],
+            "responses": [
+                {
+                    "Book": "The Old Way of Seeing",
+                    "Authors": "Jonathan Hale",
+                    "Rate": 3.89
+                },
+                {
+                    "Book": "Color Drawing",
+                    "Authors": "Michael E. Doyle",
+                    "Rate": 4.22
+                },
+                {
+                    "Book": "The Seventy Wonders of the Ancient World",
+                    "Authors": "Christopher Scarre",
+                    "Rate": 4.02
+                },
+                {
+                    "Book": "The Devil in the White City",
+                    "Authors": "Erik Larson",
+                    "Rate": 3.99
+                },
+                {
+                    "Book": "The Gardens of Emily Dickinson",
+                    "Authors": "Judith FARR;Louise Carter",
+                    "Rate": 3.86
+                },
+                {
+                    "Book": "Suburban Nation",
+                    "Authors": "Andres Duany;Elizabeth Plater-Zyberk;Jeff Speck",
+                    "Rate": 4.08
+                },
+                {
+                    "Book": "Pictures Showing what Happens on Each Page of Thomas Pynchon's Novel Gravity's Rainbow",
+                    "Authors": "Zak Smith",
+                    "Rate": 4.1
+                },
+                {
+                    "Book": "New York 2000",
+                    "Authors": "Robert A. M. Stern;David Fishman;Jacob Tilove",
+                    "Rate": 4.47
+                },
+                {
+                    "Book": "Glass House",
+                    "Authors": "Toshio Nakamura",
+                    "Rate": 4.0
+                },
+                {
+                    "Book": "Design Like You Give a Damn",
+                    "Authors": "Architecture for Humanity (Organization)",
+                    "Rate": 4.11
+                }
+            ]
+        }
+    ]
+}
